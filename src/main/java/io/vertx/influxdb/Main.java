@@ -19,8 +19,7 @@ public class Main {
   static Vertx vertx;
   public static void main(String[] args) {
 
-    System.out.println("Is with clusteredVertx: " + args[0]);
-    System.out.println("Is with clusteredVertx: " + args[0].getClass());
+    System.out.println("With clusteredVertx: " + args[0]);
 
     // Default InfluxDB options will push metrics to localhost:8086, db "default"
     MicrometerMetricsOptions options = new MicrometerMetricsOptions()

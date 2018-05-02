@@ -1,5 +1,0 @@
-io/vertx/verticles/Greetings.class
-io/vertx/verticles/EventbusConsumer.class
-io/vertx/verticles/EventbusProducer.class
-io/vertx/influxdb/Main.class
-io/vertx/verticles/SimpleWebServer.class
